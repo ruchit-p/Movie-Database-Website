@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.set('view engine', 'ejs');
 
-mongoose.connect('mongodb+srv://ruchitp:Kalpesh1527@test.ns67y.mongodb.net/moviesDB', {useNewUrlParser: true}, {useUnifiedTopology: true});
+mongoose.connect('DBURI', {useNewUrlParser: true}, {useUnifiedTopology: true});
 
 const moviesSchema = {
     title: String,
